@@ -1,5 +1,8 @@
 Reactive Robot with ROS
 
+-install ROS
+-install STDR Simulator
+
 
 
 Compilar:
