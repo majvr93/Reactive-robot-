@@ -1,12 +1,18 @@
+Reactive Robot with ROS
 
-Comando de compilação:
-		. devel/setup.bash
-		catkin_make --pkg stdr
+-install ROS
+-install STDR Simulator
 
-Comando de inicialização da plataforma
+
+
+Compilar:
+	. devel/setup.bash
+	catkin_make --pkg stdr
+
+Iniciar plataforma:
 		roslaunch stdr_launchers server_with_map_and_gui_plus_robot.launch
 
-Comando para inicialização do algoritmo :
+Iniciar algoritmo:
 		rosrun stdr stdr_node
 
 Path do código : src/stdr/src/stdr.cpp
